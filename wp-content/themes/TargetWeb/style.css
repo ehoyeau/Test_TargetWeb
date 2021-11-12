@@ -1,0 +1,60 @@
+/**
+ * Theme Name: TargetWeb_Test
+ * Text Domain: TargetWeb_Test
+ * Author: Emmanuel Hoyeau
+ * Requires at least: 5.0
+ * Tested up to: 5.6
+ * Description: Thème créé pour le test de TargetWeb
+ * Version: 1.0
+ */
+
+.recette_body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.entete{
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.menu{
+  width: 100%;
+  height: auto;
+  background-color: darkcyan;
+}
+
+h2{
+  margin: 2em;
+  padding: 2em;
+}
+.article_recette{
+  display: inline-block;
+  width: 25em;
+  height: 500px;
+  margin: 2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #dbeaf9;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px 0 #cccccc;
+  vertical-align: middle;
+}
+
+.titre_recette{
+  font-family: 'Architects Daughter', cursive;
+}
+
+@media screen and (max-width:768px){ 
+  .articlerecette{
+    display: block;
+    }
+
+  .na-li{
+    font-size: small;
+  }
+}
